@@ -1,0 +1,10 @@
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Processor\bin\Debug\netcoreapp2.0\ClaimGameQueue.Processor.deps.json
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Processor\bin\Debug\netcoreapp2.0\ClaimGameQueue.Processor.runtimeconfig.json
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Processor\bin\Debug\netcoreapp2.0\ClaimGameQueue.Processor.runtimeconfig.dev.json
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Processor\bin\Debug\netcoreapp2.0\ClaimGameQueue.Processor.dll
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Processor\bin\Debug\netcoreapp2.0\ClaimGameQueue.Claims.dll
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Processor\bin\Debug\netcoreapp2.0\ClaimGameQueue.Claims.pdb
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Processor\obj\Debug\netcoreapp2.0\ClaimGameQueue.Processor.csprojResolveAssemblyReference.cache
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Processor\obj\Debug\netcoreapp2.0\ClaimGameQueue.Processor.csproj.CoreCompileInputs.cache
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Processor\obj\Debug\netcoreapp2.0\ClaimGameQueue.Processor.AssemblyInfoInputs.cache
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Processor\obj\Debug\netcoreapp2.0\ClaimGameQueue.Processor.AssemblyInfo.cs
