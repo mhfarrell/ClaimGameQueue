@@ -46,3 +46,10 @@ D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\Claim
 D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Web\obj\Debug\ClaimGameQueue.Web.csproj.CoreCompileInputs.cache
 D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Web\obj\Debug\ClaimGameQueue.Web.dll
 D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Web\obj\Debug\ClaimGameQueue.Web.pdb
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Web\bin\ClaimGameQueue.Claims.dll
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Web\bin\EasyNetQ.dll
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Web\bin\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Web\bin\RabbitMQ.Client.dll
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Web\bin\ClaimGameQueue.Claims.pdb
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Web\bin\Microsoft.Diagnostics.Tracing.EventSource.xml
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Web\bin\RabbitMQ.Client.xml
