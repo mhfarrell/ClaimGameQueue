@@ -1,12 +1,9 @@
-﻿using EasyNetQ;
-using ClaimGameQueue.Claims;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
 using System.Text;
 
 namespace ClaimGameQueue.Remover
@@ -15,6 +12,7 @@ namespace ClaimGameQueue.Remover
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Remover Starting...");
             var list = new List<Claim>();
             int i = 0;
             dynamic qMessages;
