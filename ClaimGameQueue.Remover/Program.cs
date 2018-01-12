@@ -16,6 +16,7 @@ namespace ClaimGameQueue.Remover
         static void Main(string[] args)
         {
             var list = new List<Claim>();
+            int i = 0;
             dynamic qMessages;
             var factory = new ConnectionFactory() { HostName = "localhost" };
             using (var connection = factory.CreateConnection())
@@ -27,7 +28,7 @@ namespace ClaimGameQueue.Remover
                                      autoDelete: true,
                                      arguments: null);
 
-                var consumer = new EventingBasicConsumer(channel);
+                var consumer = new EventingBasicConsumer(channel); 
                 consumer.Received += (model, ea) =>
                 {
                     var body = ea.Body;
@@ -36,12 +37,11 @@ namespace ClaimGameQueue.Remover
                     var region_id = new Guid(qMessages.RegionId);
                     var user_id = new Guid(qMessages.UserId);
                     int uClaims = qMessages.Claims;
-
                     var existingClaim = list.FirstOrDefault(x => x.UserId.Equals(user_id) && x.RegionId.Equals(region_id));
-
                     if (existingClaim == null) list.Add(new Claim(user_id, region_id));
                     else existingClaim.Claims++;
-
+                    Console.WriteLine("Queue Message {0}, UserID: {1}, RegionID: {2}, Claims: {3}", i, qMessages.userId, qMessages.regionId, qMessages.Claims);
+                    i++;
                     //keep for adding up claims
 
                     //string URI;
@@ -75,36 +75,34 @@ namespace ClaimGameQueue.Remover
                                      autoAck: true,
                                      consumer: consumer);
             }
-
+            Console.WriteLine("");
             foreach (var item in list)
             {
-                Console.WriteLine(item.UserId);
-                Console.WriteLine(item.RegionId);
-                Console.WriteLine(item.Claims);
+                Console.WriteLine("{0}, {1}, {2}", item.UserId, item.RegionId, item.Claims);
             }
             Console.ReadKey();
         }
 
-        private static void reAdd(string m)
-        {
-            dynamic qMessages = JsonConvert.DeserializeObject(m);
-            var factory = new ConnectionFactory() { HostName = "localhost" };
-            using (var connection = factory.CreateConnection())
-            using (var channel = connection.CreateModel())
-            {
-                channel.QueueDeclare(queue: "claims",
-                                                 durable: false,
-                                                 exclusive: false,
-                                                 autoDelete: true,
-                                                 arguments: null);
-                string message = "{\"Regionid\": \"" + qMessages.regionId + ",\"Userid\":\"" + qMessages.userId + "\", \"Claims\": \"1\"}";
-                var body = Encoding.UTF8.GetBytes(message);
-                channel.BasicPublish(exchange: "",
-                     routingKey: "claims",
-                     basicProperties: null,
-                     body: body);
-            }
-            return;
-        }
+        //private static void reAdd(string m)
+        //{
+        //    dynamic qMessages = JsonConvert.DeserializeObject(m);
+        //    var factory = new ConnectionFactory() { HostName = "localhost" };
+        //    using (var connection = factory.CreateConnection())
+        //    using (var channel = connection.CreateModel())
+        //    {
+        //        channel.QueueDeclare(queue: "claims",
+        //                                         durable: false,
+        //                                         exclusive: false,
+        //                                         autoDelete: true,
+        //                                         arguments: null);
+        //        string message = "{\"Regionid\": \"" + qMessages.regionId + ",\"Userid\":\"" + qMessages.userId + "\", \"Claims\": \"1\"}";
+        //        var body = Encoding.UTF8.GetBytes(message);
+        //        channel.BasicPublish(exchange: "",
+        //             routingKey: "claims",
+        //             basicProperties: null,
+        //             body: body);
+        //    }
+        //    return;
+        //}
     }
 }

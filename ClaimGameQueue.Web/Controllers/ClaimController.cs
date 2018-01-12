@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using RabbitMQ.Client;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -44,6 +45,11 @@ namespace ClaimGameQueue.Web.Controllers
                 Content = new StringContent("Created")
             };
             return response;
+        }
+        public string Get()
+        {
+            Process.Start("...ClaimGameQueue.Remover\\bin\\Debug\\ClaimGameQueue.Remover.exe");
+            return null;
         }
     }
 }
