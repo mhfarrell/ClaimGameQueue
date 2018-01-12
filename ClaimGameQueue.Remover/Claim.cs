@@ -8,14 +8,14 @@ namespace ClaimGameQueue.Remover
 {
     public class Claim
     {
-        public Claim(Guid userId, Guid regionId)
+        public Claim(string userId, string regionId)
         {
             UserId = userId;
             RegionId = regionId;
             Claims = 1;
         }
-        public Guid UserId { get; set; }
-        public Guid RegionId { get; set; }
+        public string UserId { get; set; }
+        public string RegionId { get; set; }
         public int Claims { get; set; }
     }
 }

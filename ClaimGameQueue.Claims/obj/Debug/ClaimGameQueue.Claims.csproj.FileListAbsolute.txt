@@ -3,3 +3,4 @@ D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\Claim
 D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Claims\obj\Debug\ClaimGameQueue.Claims.csproj.CoreCompileInputs.cache
 D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Claims\obj\Debug\ClaimGameQueue.Claims.dll
 D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Claims\obj\Debug\ClaimGameQueue.Claims.pdb
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Claims\obj\Debug\ClaimGameQueue.Claims.csprojResolveAssemblyReference.cache

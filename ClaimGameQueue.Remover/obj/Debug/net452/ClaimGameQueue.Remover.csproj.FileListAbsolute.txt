@@ -1,0 +1,12 @@
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\bin\Debug\net452\ClaimGameQueue.Remover.exe
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\bin\Debug\net452\ClaimGameQueue.Remover.pdb
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\bin\Debug\net452\EasyNetQ.dll
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\bin\Debug\net452\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\bin\Debug\net452\Newtonsoft.Json.dll
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\bin\Debug\net452\RabbitMQ.Client.dll
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\obj\Debug\net452\ClaimGameQueue.Remover.csproj.CoreCompileInputs.cache
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\obj\Debug\net452\ClaimGameQueue.Remover.AssemblyInfoInputs.cache
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\obj\Debug\net452\ClaimGameQueue.Remover.AssemblyInfo.cs
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\obj\Debug\net452\ClaimGameQueue.Remover.exe
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\obj\Debug\net452\ClaimGameQueue.Remover.pdb
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\obj\Debug\net452\ClaimGameQueue.Remover.csprojResolveAssemblyReference.cache
