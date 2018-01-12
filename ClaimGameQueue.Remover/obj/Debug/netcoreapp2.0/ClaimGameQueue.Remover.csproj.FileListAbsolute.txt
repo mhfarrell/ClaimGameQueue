@@ -6,3 +6,8 @@ D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\Claim
 D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\obj\Debug\netcoreapp2.0\ClaimGameQueue.Remover.csproj.CoreCompileInputs.cache
 D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\obj\Debug\netcoreapp2.0\ClaimGameQueue.Remover.AssemblyInfoInputs.cache
 D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\obj\Debug\netcoreapp2.0\ClaimGameQueue.Remover.AssemblyInfo.cs
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\bin\Debug\netcoreapp2.0\ClaimGameQueue.Remover.pdb
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\bin\Debug\netcoreapp2.0\ClaimGameQueue.Claims.dll
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\bin\Debug\netcoreapp2.0\ClaimGameQueue.Claims.pdb
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\obj\Debug\netcoreapp2.0\ClaimGameQueue.Remover.dll
+D:\Drive Files\My Documents\Visual Studio 2017\Projects\ClaimGameQueue.Web\ClaimGameQueue\ClaimGameQueue.Remover\obj\Debug\netcoreapp2.0\ClaimGameQueue.Remover.pdb
