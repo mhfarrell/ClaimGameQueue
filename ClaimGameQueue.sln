@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimGameQueue.Web", "Claim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimGameQueue.Claims", "ClaimGameQueue.Claims\ClaimGameQueue.Claims.csproj", "{7BC051EC-D57E-4ABD-B383-334D78C3B5D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimGameQueue.Remover", "ClaimGameQueue.Remover\ClaimGameQueue.Remover.csproj", "{1B67D44C-05C8-4662-BBC0-BDD69EAB070B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClaimGameQueue.Remover", "ClaimGameQueue.Remover\ClaimGameQueue.Remover.csproj", "{1B67D44C-05C8-4662-BBC0-BDD69EAB070B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimGameQueue.Processor", "ClaimGameQueue.Processor\ClaimGameQueue.Processor.csproj", "{0EAF47DF-A1A8-44CF-A97C-4F8B728578C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClaimGameQueue.Processor", "ClaimGameQueue.Processor\ClaimGameQueue.Processor.csproj", "{0EAF47DF-A1A8-44CF-A97C-4F8B728578C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimGameQueue.Tester", "ClaimGameQueue.Tester\ClaimGameQueue.Tester.csproj", "{5054D69F-D3F5-4A1A-9AC4-91D58162011B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{0EAF47DF-A1A8-44CF-A97C-4F8B728578C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EAF47DF-A1A8-44CF-A97C-4F8B728578C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EAF47DF-A1A8-44CF-A97C-4F8B728578C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5054D69F-D3F5-4A1A-9AC4-91D58162011B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5054D69F-D3F5-4A1A-9AC4-91D58162011B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5054D69F-D3F5-4A1A-9AC4-91D58162011B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5054D69F-D3F5-4A1A-9AC4-91D58162011B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
