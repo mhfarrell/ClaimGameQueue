@@ -33,8 +33,8 @@ namespace ClaimGameQueue.Remover
                     var body = ea.Body;
                     var message = Encoding.UTF8.GetString(body);
                     qMessages = JsonConvert.DeserializeObject(message);
-                    var region_id = new Guid(qMessages.regionId);
-                    var user_id = new Guid(qMessages.userId);
+                    var region_id = new Guid(qMessages.RegionId);
+                    var user_id = new Guid(qMessages.UserId);
                     int uClaims = qMessages.Claims;
 
                     var existingClaim = list.FirstOrDefault(x => x.UserId.Equals(user_id) && x.RegionId.Equals(region_id));
@@ -97,7 +97,7 @@ namespace ClaimGameQueue.Remover
                                                  exclusive: false,
                                                  autoDelete: true,
                                                  arguments: null);
-                string message = "{\"Region_id\": \"" + qMessages.regionId + ",\"User_id\":\"" + qMessages.userId + "\", \"Claims\": \"1\"}";
+                string message = "{\"Regionid\": \"" + qMessages.regionId + ",\"Userid\":\"" + qMessages.userId + "\", \"Claims\": \"1\"}";
                 var body = Encoding.UTF8.GetBytes(message);
                 channel.BasicPublish(exchange: "",
                      routingKey: "claims",

@@ -91,10 +91,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2018 23:40:05</publishTime>
     </File>
     <File Include="bin/ClaimGameQueue.Web.dll">
-      <publishTime>01/12/2018 11:27:02</publishTime>
+      <publishTime>01/12/2018 11:39:32</publishTime>
     </File>
     <File Include="bin/ClaimGameQueue.Web.pdb">
-      <publishTime>01/12/2018 11:27:02</publishTime>
+      <publishTime>01/12/2018 11:39:32</publishTime>
     </File>
     <File Include="bin/EasyNetQ.dll">
       <publishTime>11/13/2017 09:44:30</publishTime>
