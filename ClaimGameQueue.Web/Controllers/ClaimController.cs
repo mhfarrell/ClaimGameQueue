@@ -18,7 +18,6 @@ namespace ClaimGameQueue.Web.Controllers
     {
         public HttpResponseMessage Post([FromBody] gameClaim claim)
         {
-            //dynamic postBody = JsonConvert.SerializeObject(claim);
             var messageBus = RabbitHutch.CreateBus("host=localhost");
             messageBus.Publish(claim);
             //add to the queue
@@ -31,7 +30,7 @@ namespace ClaimGameQueue.Web.Controllers
                                                  exclusive: false,
                                                  autoDelete: true,
                                                  arguments: null);
-                string message = "{\"Region_id\": \"" + claim.regionId + ",\"User_id\":\"" + claim.userId + "\", \"Claims\": \"1\"}";
+                string message = "{\"RegionId\": \"" + claim.regionId + ",\"UserId\":\"" + claim.userId + "\", \"Claims\": \"1\"}";
                 var body = Encoding.UTF8.GetBytes(message);
                 channel.BasicPublish(exchange: "",
                      routingKey: "claims",
@@ -40,15 +39,10 @@ namespace ClaimGameQueue.Web.Controllers
             }
             //end add to queue
 
-            //launches the program to pull off queue
-            //Process.Start("C:\\webAPI\\ClaimGameQueue.Remover\\Program.cs");
-            //need to check queue size and launch more if it exceeds 400~
-
             var response = new HttpResponseMessage(HttpStatusCode.Created)
             {
                 Content = new StringContent("Created")
             };
-
             return response;
         }
     }
