@@ -31,7 +31,7 @@ namespace ClaimGameQueue.Web.Controllers
                                                  exclusive: false,
                                                  autoDelete: true,
                                                  arguments: null);
-                string message = "{\"RegionId\": \"" + claim.regionId + ",\"UserId\":\"" + claim.userId + "\", \"Claims\": \"1\"}";
+                string message = "{\"regionId\": \"" + claim.regionId + ",\"userId\":\"" + claim.userId + "\", \"Claims\": \"1\"}";
                 var body = Encoding.UTF8.GetBytes(message);
                 channel.BasicPublish(exchange: "",
                      routingKey: "claims",
